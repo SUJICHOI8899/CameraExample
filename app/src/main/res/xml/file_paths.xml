@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 내부 저장소 -->
+    <cache-path name="cache" path="." /> <!-- Context.getCacheDir() -->
+    <files-path name="files" path="." /> <!-- Context.getFilesDir() -->
+
+    <!-- 외부 저장소 -->
+    <root-path name="external" path="/" /> <!-- Environment.getExternalStorageDirectory() -->
+    <files-path name="external_files" path="." /> <!-- Context.getExternalFilesDir() -->
+    <cache-path name="external_cache" path="." /> <!-- Context.getExternalCacheDir() -->
+    <external-files-path name="my_images" path="Pictures" /> <!-- 사용자 지정 외부 저장소 -->
+</paths>
